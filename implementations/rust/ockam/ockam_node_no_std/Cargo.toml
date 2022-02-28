@@ -32,4 +32,4 @@ no_std = []
 alloc = []
 
 [dependencies]
-executor = "0.7.0"
+executor = "0.8.2"
