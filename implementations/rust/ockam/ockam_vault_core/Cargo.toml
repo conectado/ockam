@@ -31,6 +31,6 @@ alloc = ["ockam_core/alloc", "serde/alloc"]
 ockam_core = { path = "../ockam_core", version = "0.37.0" , default_features = false }
 heapless = { version = "0.7", features = ["serde"], optional = true }
 serde = {version = "1.0", default-features = false, features = ["derive"]}
-serde-big-array = "0.3"
+serde-big-array = "0.5"
 zeroize = { version = "1.4.2", features = ["zeroize_derive"] }
 cfg-if = "1.0"
